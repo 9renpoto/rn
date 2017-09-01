@@ -6,7 +6,6 @@
     "react-native": "0.47.2"
   },
   "devDependencies": {
-    "@9renpoto/eslint-config": "^2.3.0",
     "@9renpoto/eslint-config-flowtype": "^0.5.0",
     "@9renpoto/eslint-config-react": "^0.2.0",
     "babel-jest": "20.0.3",
