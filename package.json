@@ -1,0 +1,40 @@
+{
+  "name": "@9renpoto/app",
+  "version": "0.0.1",
+  "dependencies": {
+    "react": "16.0.0-alpha.12",
+    "react-native": "0.47.2"
+  },
+  "devDependencies": {
+    "@9renpoto/eslint-config": "^2.3.0",
+    "@9renpoto/eslint-config-react": "^0.2.0",
+    "babel-jest": "20.0.3",
+    "babel-preset-react-native": "3.0.2",
+    "codecov": "^2.3.0",
+    "eslint": "^4.5.0",
+    "eslint-plugin-jest": "^20.0.3",
+    "husky": "^0.14.3",
+    "jest": "20.0.4",
+    "lint-staged": "^4.0.4",
+    "prettier-eslint-cli": "^4.3.0",
+    "react-test-renderer": "16.0.0-alpha.12"
+  },
+  "jest": {
+    "preset": "react-native",
+    "collectCoverage": true
+  },
+  "lint-staged": {
+    "*.{js,jsx}": [
+      "prettier-eslint --write",
+      "eslint --cache",
+      "git add"
+    ]
+  },
+  "private": true,
+  "scripts": {
+    "coverage": "codecov -f ./coverage/lcov.info -t $CODECOV_TOKEN",
+    "precommit": "lint-staged",
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  }
+}
