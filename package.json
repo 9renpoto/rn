@@ -10,6 +10,7 @@
     "@9renpoto/eslint-config-react": "^0.2.0",
     "babel-jest": "20.0.3",
     "babel-preset-react-native": "3.0.2",
+    "codecov": "^2.3.0",
     "eslint": "^4.5.0",
     "eslint-plugin-jest": "^20.0.3",
     "husky": "^0.14.3",
@@ -19,7 +20,8 @@
     "react-test-renderer": "16.0.0-alpha.12"
   },
   "jest": {
-    "preset": "react-native"
+    "preset": "react-native",
+    "collectCoverage": true
   },
   "lint-staged": {
     "*.{js,jsx}": [
@@ -30,6 +32,7 @@
   },
   "private": true,
   "scripts": {
+    "coverage": "codecov -f ./coverage/lcov.info -t $CODECOV_TOKEN",
     "precommit": "lint-staged",
     "start": "node node_modules/react-native/local-cli/cli.js start",
     "test": "jest"
