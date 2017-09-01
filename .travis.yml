@@ -4,6 +4,12 @@ node_js: stable
 env:
   matrix:
   - CMD=test
+  - CMD=lint
+  - CMD=flow
+matrix:
+  fast_finish: true
+  allow_failures:
+  - env: CMD=flow
 script:
 - yarn $CMD
 after_success:

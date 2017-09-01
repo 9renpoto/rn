@@ -7,15 +7,19 @@
   },
   "devDependencies": {
     "@9renpoto/eslint-config": "^2.3.0",
+    "@9renpoto/eslint-config-flowtype": "^0.5.0",
     "@9renpoto/eslint-config-react": "^0.2.0",
     "babel-jest": "20.0.3",
     "babel-preset-react-native": "3.0.2",
     "codecov": "^2.3.0",
     "eslint": "^4.5.0",
     "eslint-plugin-jest": "^20.0.3",
+    "flow-bin": "^0.54.0",
+    "flow-typed": "^2.1.5",
     "husky": "^0.14.3",
     "jest": "20.0.4",
     "lint-staged": "^4.0.4",
+    "npm-run-all": "^4.1.1",
     "prettier-eslint-cli": "^4.3.0",
     "react-test-renderer": "16.0.0-alpha.12"
   },
@@ -34,6 +38,9 @@
   "scripts": {
     "coverage": "codecov -f ./coverage/lcov.info -t $CODECOV_TOKEN",
     "precommit": "lint-staged",
+    "flow": "flow-typed install -s && flow",
+    "lint:es": "eslint . --ext=js,jsx",
+    "lint": "run-p lint:*",
     "start": "node node_modules/react-native/local-cli/cli.js start",
     "test": "jest"
   }
