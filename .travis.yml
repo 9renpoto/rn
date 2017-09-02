@@ -15,7 +15,6 @@ env:
   matrix:
   - CMD=test
   - CMD=lint
-  - CMD=build:android
   - CMD=build:ios
   - CMD=flow
 matrix:

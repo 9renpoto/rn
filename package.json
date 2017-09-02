@@ -36,7 +36,7 @@
   "private": true,
   "scripts": {
     "build": "run-p build:*",
-    "build:ios": "react-native bundle --platform ios --dev false --entry-file index.ios.js --bundle-output iOS/main.jsbundle",
+    "build:ios": "react-native bundle --platform ios --dev false --entry-file index.ios.js --bundle-output ios/main.jsbundle",
     "build:android": "npm run w:android -- --variant=release",
     "coverage": "codecov -f ./coverage/lcov.info -t $CODECOV_TOKEN",
     "precommit": "lint-staged",
