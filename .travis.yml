@@ -1,10 +1,21 @@
-language: node_js
-sudo: false
-node_js: stable
+language: objective-c
+osx_image:
+- xcode9
+- xcode8.3
+install:
+  - nvm install 8
+  - rm -Rf "${TMPDIR}/jest_preprocess_cache"
+  - brew install yarn --ignore-dependencies
+  - brew install watchman
+  - yarn install
+cache:
+  - cocoapods
+  - yarn
 env:
   matrix:
   - CMD=test
   - CMD=lint
+  - CMD=build:ios
   - CMD=flow
 matrix:
   fast_finish: true
