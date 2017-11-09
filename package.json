@@ -2,7 +2,7 @@
   "name": "@9renpoto/app",
   "version": "0.0.1",
   "dependencies": {
-    "react": "16.0.0",
+    "react": "16.1.0",
     "react-native": "0.50.2"
   },
   "devDependencies": {
