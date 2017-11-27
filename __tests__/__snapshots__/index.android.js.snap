@@ -14,7 +14,6 @@ exports[`renders correctly 1`] = `
   <Text
     accessible={true}
     allowFontScaling={true}
-    disabled={false}
     ellipsizeMode="tail"
     style={
       Object {
@@ -29,7 +28,6 @@ exports[`renders correctly 1`] = `
   <Text
     accessible={true}
     allowFontScaling={true}
-    disabled={false}
     ellipsizeMode="tail"
     style={
       Object {
@@ -44,7 +42,6 @@ exports[`renders correctly 1`] = `
   <Text
     accessible={true}
     allowFontScaling={true}
-    disabled={false}
     ellipsizeMode="tail"
     style={
       Object {
@@ -56,7 +53,7 @@ exports[`renders correctly 1`] = `
   >
     Double tap R on your keyboard to reload,
     
-    
+
     Shake or press menu button for dev menu
   </Text>
 </View>
