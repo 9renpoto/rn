@@ -1,0 +1,13 @@
+box: node
+build:
+  steps:
+    - script:
+      name: install yarn
+      code: |
+        npm install -g yarn
+    - script:
+      name: package install
+      code: |
+        yarn install 
+    - npm-test
+
