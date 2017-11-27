@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "dependencies": {
     "react": "16.1.1",
-    "react-native": "0.50.2"
+    "react-native": "0.50.4"
   },
   "devDependencies": {
     "@9renpoto/eslint-config-flowtype": "^0.6.0",
@@ -20,7 +20,7 @@
     "lint-staged": "^5.0.0",
     "npm-run-all": "^4.1.1",
     "prettier-eslint-cli": "^4.3.0",
-    "react-test-renderer": "16.1.0"
+    "react-test-renderer": "16.1.1"
   },
   "jest": {
     "preset": "react-native",
