@@ -4,7 +4,7 @@
   "dependencies": {
     "react": "16.2.0",
     "react-native": "0.52.0",
-    "snyk": "^1.67.0"
+    "snyk": "^1.68.0"
   },
   "devDependencies": {
     "@9renpoto/eslint-config-flowtype": "^0.6.0",
