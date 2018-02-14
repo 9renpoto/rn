@@ -7,7 +7,7 @@
     "snyk": "^1.69.7"
   },
   "devDependencies": {
-    "@9renpoto/eslint-config-flowtype": "^4.0.0",
+    "@9renpoto/eslint-config-flowtype": "^4.1.0",
     "@9renpoto/eslint-config-react": "^4.0.0",
     "babel-jest": "22.2.2",
     "babel-preset-react-native": "4.0.0",
