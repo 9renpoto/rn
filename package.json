@@ -9,7 +9,7 @@
   "devDependencies": {
     "@9renpoto/eslint-config-flowtype": "^4.3.0",
     "@9renpoto/eslint-config-react": "^4.3.0",
-    "babel-jest": "22.4.0",
+    "babel-jest": "22.4.1",
     "babel-preset-react-native": "4.0.0",
     "codecov": "^3.0.0",
     "eslint": "^4.18.1",
