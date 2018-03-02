@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "dependencies": {
     "react": "16.2.0",
-    "react-native": "0.53.3",
+    "react-native": "0.54.0",
     "snyk": "^1.69.10"
   },
   "devDependencies": {
