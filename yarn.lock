@@ -5524,9 +5524,9 @@ react-devtools-core@3.1.0:
     shell-quote "^1.6.1"
     ws "^2.0.3"
 
-react-native@0.54.0:
-  version "0.54.0"
-  resolved "https://registry.yarnpkg.com/react-native/-/react-native-0.54.0.tgz#1582cc2b2a639d46e39c44bcc50e051d0061820a"
+react-native@0.54.1:
+  version "0.54.1"
+  resolved "https://registry.yarnpkg.com/react-native/-/react-native-0.54.1.tgz#d8c30d83c9f84d7941cf9c8d3d9f8ebca1c53e48"
   dependencies:
     absolute-path "^0.0.0"
     art "^0.10.0"
