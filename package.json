@@ -12,7 +12,7 @@
     "babel-jest": "22.4.1",
     "babel-preset-react-native": "4.0.0",
     "codecov": "3.0.0",
-    "eslint": "4.18.2",
+    "eslint": "4.19.0",
     "eslint-plugin-jest": "21.15.0",
     "flow-bin": "0.68.0",
     "flow-typed": "2.3.0",
