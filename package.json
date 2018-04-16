@@ -2,7 +2,7 @@
   "name": "@9renpoto/app",
   "version": "0.0.1",
   "dependencies": {
-    "react": "16.3.1",
+    "react": "16.3.2",
     "react-native": "0.55.1",
     "snyk": "1.71.0"
   },
@@ -21,7 +21,7 @@
     "lint-staged": "7.0.4",
     "npm-run-all": "4.1.2",
     "prettier-eslint-cli": "4.7.1",
-    "react-test-renderer": "16.3.1"
+    "react-test-renderer": "16.3.2"
   },
   "jest": {
     "preset": "react-native",
