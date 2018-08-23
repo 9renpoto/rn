@@ -6854,9 +6854,9 @@ snyk-try-require@^1.1.1:
     lru-cache "^4.0.0"
     then-fs "^2.0.0"
 
-snyk@1.92.7:
-  version "1.92.7"
-  resolved "https://registry.yarnpkg.com/snyk/-/snyk-1.92.7.tgz#110f8169691e0aa7f78aa92f0b5b41a5532c9218"
+snyk@1.93.0:
+  version "1.93.0"
+  resolved "https://registry.yarnpkg.com/snyk/-/snyk-1.93.0.tgz#3caaddc447b19acde17db103d5cc34824e9e5b9c"
   dependencies:
     abbrev "^1.1.1"
     ansi-escapes "^3.1.0"
