@@ -10,7 +10,7 @@
     "@9renpoto/eslint-config-flowtype": "4.5.1",
     "@9renpoto/eslint-config-react": "4.3.0",
     "babel-jest": "23.4.2",
-    "babel-preset-react-native": "4.0.0",
+    "babel-preset-react-native": "4.0.1",
     "codecov": "3.1.0",
     "eslint": "5.5.0",
     "eslint-plugin-jest": "21.22.0",
