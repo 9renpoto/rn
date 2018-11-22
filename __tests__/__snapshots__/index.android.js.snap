@@ -12,9 +12,6 @@ exports[`renders correctly 1`] = `
   }
 >
   <Text
-    accessible={true}
-    allowFontScaling={true}
-    ellipsizeMode="tail"
     style={
       Object {
         "fontSize": 20,
@@ -26,9 +23,6 @@ exports[`renders correctly 1`] = `
     Welcome to React Native!
   </Text>
   <Text
-    accessible={true}
-    allowFontScaling={true}
-    ellipsizeMode="tail"
     style={
       Object {
         "color": "#333333",
@@ -40,9 +34,6 @@ exports[`renders correctly 1`] = `
     To get started, edit index.android.js
   </Text>
   <Text
-    accessible={true}
-    allowFontScaling={true}
-    ellipsizeMode="tail"
     style={
       Object {
         "color": "#333333",
