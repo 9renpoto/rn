@@ -6260,7 +6260,7 @@ react-deep-force-update@^1.0.0:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/react-deep-force-update/-/react-deep-force-update-1.1.1.tgz#bcd31478027b64b3339f108921ab520b4313dc2c"
 
-react-devtools-core@^3.4.0:
+react-devtools-core@^3.4.2:
   version "3.4.3"
   resolved "https://registry.yarnpkg.com/react-devtools-core/-/react-devtools-core-3.4.3.tgz#1a06b7dc546d41ecf8dc4fbabea2d79d339353cf"
   dependencies:
@@ -6271,9 +6271,9 @@ react-is@^16.6.3:
   version "16.6.3"
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.6.3.tgz#d2d7462fcfcbe6ec0da56ad69047e47e56e7eac0"
 
-react-native@0.57.5:
-  version "0.57.5"
-  resolved "https://registry.yarnpkg.com/react-native/-/react-native-0.57.5.tgz#f1dbcbf1f889845fba954f3e0d47e61cf89d41d9"
+react-native@0.57.6:
+  version "0.57.6"
+  resolved "https://registry.yarnpkg.com/react-native/-/react-native-0.57.6.tgz#517a5df8a635e9f465abec1e47d7d66b0e206c06"
   dependencies:
     "@babel/runtime" "^7.0.0"
     absolute-path "^0.0.0"
@@ -6315,7 +6315,7 @@ react-native@0.57.5:
     promise "^7.1.1"
     prop-types "^15.5.8"
     react-clone-referenced-element "^1.0.1"
-    react-devtools-core "^3.4.0"
+    react-devtools-core "^3.4.2"
     react-timer-mixin "^0.13.2"
     regenerator-runtime "^0.11.0"
     rimraf "^2.5.4"
