@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "dependencies": {
     "react": "16.6.3",
-    "react-native": "0.57.7"
+    "react-native": "0.57.8"
   },
   "devDependencies": {
     "@9renpoto/eslint-config-flowtype": "4.7.0",
