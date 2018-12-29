@@ -8,6 +8,6 @@ build:
     - script:
       name: package install
       code: |
-        yarn install 
+        yarn install
     - npm-test
 

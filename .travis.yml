@@ -1,15 +1,10 @@
 language: node_js
 sudo: false
-node_js: lts/*
+node_js: "lts/*"
 env:
   matrix:
   - CMD=test
   - CMD=lint
-  - CMD=flow
-matrix:
-  fast_finish: true
-  allow_failures:
-  - env: CMD=flow
 script:
 - yarn $CMD
 after_success:
