@@ -3429,6 +3429,17 @@ get-stream@^4.0.0:
   dependencies:
     pump "^3.0.0"
 
+get-uri@2.0.2:
+  version "2.0.2"
+  resolved "https://registry.yarnpkg.com/get-uri/-/get-uri-2.0.2.tgz#5c795e71326f6ca1286f2fc82575cd2bab2af578"
+  dependencies:
+    data-uri-to-buffer "1"
+    debug "2"
+    extend "3"
+    file-uri-to-path "1"
+    ftp "~0.3.10"
+    readable-stream "2"
+
 get-uri@^2.0.0:
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/get-uri/-/get-uri-2.0.1.tgz#dbdcacacd8c608a38316869368117697a1631c59"
@@ -7400,9 +7411,9 @@ snyk-try-require@^1.1.1:
     lru-cache "^4.0.0"
     then-fs "^2.0.0"
 
-snyk@1.132.1:
-  version "1.132.1"
-  resolved "https://registry.yarnpkg.com/snyk/-/snyk-1.132.1.tgz#4428cf703dfbd27a93463afb238bd9cb5b2533d2"
+snyk@1.132.2:
+  version "1.132.2"
+  resolved "https://registry.yarnpkg.com/snyk/-/snyk-1.132.2.tgz#bc13daeb7cb5ceb486e7657baa511608c8cbe69d"
   dependencies:
     "@snyk/dep-graph" "1.1.2"
     "@snyk/gemfile" "1.1.0"
@@ -7412,6 +7423,7 @@ snyk@1.132.1:
     configstore "^3.1.2"
     debug "^3.1.0"
     diff "^4.0.1"
+    get-uri "2.0.2"
     inquirer "^3.0.0"
     lodash "^4.17.5"
     needle "^2.2.4"
