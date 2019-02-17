@@ -2452,6 +2452,10 @@ diff@^3.2.0:
   version "3.3.0"
   resolved "https://registry.yarnpkg.com/diff/-/diff-3.3.0.tgz#056695150d7aa93237ca7e378ac3b1682b7963b9"
 
+diff@^4.0.1:
+  version "4.0.1"
+  resolved "https://registry.yarnpkg.com/diff/-/diff-4.0.1.tgz#0c667cb467ebbb5cea7f14f135cc2dba7780a8ff"
+
 dlv@^1.1.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/dlv/-/dlv-1.1.0.tgz#fee1a7c43f63be75f3f679e85262da5f102764a7"
@@ -7307,14 +7311,21 @@ snyk-nodejs-lockfile-parser@1.11.0:
     tslib "^1.9.3"
     uuid "^3.3.2"
 
-snyk-nuget-plugin@1.6.5:
-  version "1.6.5"
-  resolved "https://registry.yarnpkg.com/snyk-nuget-plugin/-/snyk-nuget-plugin-1.6.5.tgz#0a5d53ba47a8bbdc82e245171446ec0485cc591b"
+snyk-nuget-plugin@1.7.1:
+  version "1.7.1"
+  resolved "https://registry.yarnpkg.com/snyk-nuget-plugin/-/snyk-nuget-plugin-1.7.1.tgz#61f0fd0e9c88e2330385a6142cc3713581ddff40"
   dependencies:
     debug "^3.1.0"
     jszip "^3.1.5"
     lodash "^4.17.10"
+    snyk-paket-parser "1.4.1"
     xml2js "^0.4.17"
+
+snyk-paket-parser@1.4.1:
+  version "1.4.1"
+  resolved "https://registry.yarnpkg.com/snyk-paket-parser/-/snyk-paket-parser-1.4.1.tgz#7e70d42f74dae04560055b9fb80150893a3b3c39"
+  dependencies:
+    tslib "^1.9.3"
 
 snyk-php-plugin@1.5.2:
   version "1.5.2"
@@ -7406,9 +7417,9 @@ snyk-try-require@^1.1.1:
     lru-cache "^4.0.0"
     then-fs "^2.0.0"
 
-snyk@1.130.0:
-  version "1.130.0"
-  resolved "https://registry.yarnpkg.com/snyk/-/snyk-1.130.0.tgz#9038b26e8aaf26a82dec4303b700fe5837b4fe08"
+snyk@1.132.0:
+  version "1.132.0"
+  resolved "https://registry.yarnpkg.com/snyk/-/snyk-1.132.0.tgz#a77f0766b6f596ac5f69b28c6c19d4a163515c99"
   dependencies:
     "@snyk/dep-graph" "1.1.2"
     "@snyk/gemfile" "1.1.0"
@@ -7417,6 +7428,7 @@ snyk@1.130.0:
     chalk "^2.4.1"
     configstore "^3.1.2"
     debug "^3.1.0"
+    diff "^4.0.1"
     get-uri "2.0.2"
     hasbin "^1.2.3"
     inquirer "^3.0.0"
@@ -7435,7 +7447,7 @@ snyk@1.130.0:
     snyk-module "1.9.1"
     snyk-mvn-plugin "2.0.1"
     snyk-nodejs-lockfile-parser "1.11.0"
-    snyk-nuget-plugin "1.6.5"
+    snyk-nuget-plugin "1.7.1"
     snyk-php-plugin "1.5.2"
     snyk-policy "1.13.3"
     snyk-python-plugin "1.9.1"
