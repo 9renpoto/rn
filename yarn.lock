@@ -6433,9 +6433,9 @@ react-devtools-core@^3.4.2:
     shell-quote "^1.6.1"
     ws "^3.3.1"
 
-react-is@^16.8.3:
-  version "16.8.3"
-  resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.8.3.tgz#4ad8b029c2a718fc0cfc746c8d4e1b7221e5387d"
+react-is@^16.8.4:
+  version "16.8.4"
+  resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.8.4.tgz#90f336a68c3a29a096a3d648ab80e87ec61482a2"
 
 react-native@0.57.8:
   version "0.57.8"
@@ -6501,14 +6501,14 @@ react-proxy@^1.1.7:
     lodash "^4.6.1"
     react-deep-force-update "^1.0.0"
 
-react-test-renderer@16.8.3:
-  version "16.8.3"
-  resolved "https://registry.yarnpkg.com/react-test-renderer/-/react-test-renderer-16.8.3.tgz#230006af264cc46aeef94392e04747c21839e05e"
+react-test-renderer@16.8.4:
+  version "16.8.4"
+  resolved "https://registry.yarnpkg.com/react-test-renderer/-/react-test-renderer-16.8.4.tgz#abee4c2c3bf967a8892a7b37f77370c5570d5329"
   dependencies:
     object-assign "^4.1.1"
     prop-types "^15.6.2"
-    react-is "^16.8.3"
-    scheduler "^0.13.3"
+    react-is "^16.8.4"
+    scheduler "^0.13.4"
 
 react-timer-mixin@^0.13.2:
   version "0.13.3"
@@ -6521,14 +6521,14 @@ react-transform-hmr@^1.0.4:
     global "^4.3.0"
     react-proxy "^1.1.7"
 
-react@16.8.3:
-  version "16.8.3"
-  resolved "https://registry.yarnpkg.com/react/-/react-16.8.3.tgz#c6f988a2ce895375de216edcfaedd6b9a76451d9"
+react@16.8.4:
+  version "16.8.4"
+  resolved "https://registry.yarnpkg.com/react/-/react-16.8.4.tgz#fdf7bd9ae53f03a9c4cd1a371432c206be1c4768"
   dependencies:
     loose-envify "^1.1.0"
     object-assign "^4.1.1"
     prop-types "^15.6.2"
-    scheduler "^0.13.3"
+    scheduler "^0.13.4"
 
 read-pkg-up@^1.0.1:
   version "1.0.1"
@@ -7026,9 +7026,9 @@ sax@~1.1.1:
   version "1.1.6"
   resolved "https://registry.yarnpkg.com/sax/-/sax-1.1.6.tgz#5d616be8a5e607d54e114afae55b7eaf2fcc3240"
 
-scheduler@^0.13.3:
-  version "0.13.3"
-  resolved "https://registry.yarnpkg.com/scheduler/-/scheduler-0.13.3.tgz#bed3c5850f62ea9c716a4d781f9daeb9b2a58896"
+scheduler@^0.13.4:
+  version "0.13.4"
+  resolved "https://registry.yarnpkg.com/scheduler/-/scheduler-0.13.4.tgz#8fef05e7a3580c76c0364d2df5e550e4c9140298"
   dependencies:
     loose-envify "^1.1.0"
     object-assign "^4.1.1"
