@@ -7440,9 +7440,9 @@ snyk-try-require@^1.1.1:
     lru-cache "^4.0.0"
     then-fs "^2.0.0"
 
-snyk@1.147.2:
-  version "1.147.2"
-  resolved "https://registry.yarnpkg.com/snyk/-/snyk-1.147.2.tgz#ac904f2dec052974a4ff0858732eb51d50d07220"
+snyk@1.147.4:
+  version "1.147.4"
+  resolved "https://registry.yarnpkg.com/snyk/-/snyk-1.147.4.tgz#e2fff7f888be8c5b7a91926564e030f827057c85"
   dependencies:
     "@snyk/dep-graph" "1.4.1"
     "@snyk/gemfile" "1.2.0"
