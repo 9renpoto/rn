@@ -1,51 +1,30 @@
 {
-  "name": "@9renpoto/app",
+  "name": "app",
   "version": "0.0.1",
-  "dependencies": {
-    "react": "16.8.6",
-    "react-native": "0.57.8"
-  },
-  "devDependencies": {
-    "@9renpoto/eslint-config-flowtype": "4.7.0",
-    "@9renpoto/eslint-config-react": "4.7.0",
-    "babel-jest": "23.6.0",
-    "babel-preset-react-native": "4.0.1",
-    "codecov": "3.3.0",
-    "eslint": "5.16.0",
-    "eslint-plugin-jest": "22.5.1",
-    "flow-bin": "0.98.0",
-    "flow-typed": "2.5.1",
-    "husky": "2.2.0",
-    "jest": "23.6.0",
-    "lint-staged": "8.1.5",
-    "npm-run-all": "4.1.5",
-    "prettier-eslint-cli": "4.7.1",
-    "react-test-renderer": "16.8.6",
-    "snyk": "1.160.0"
-  },
-  "jest": {
-    "preset": "react-native",
-    "collectCoverage": true
-  },
-  "lint-staged": {
-    "*.{js,jsx}": [
-      "prettier-eslint --write",
-      "eslint --cache",
-      "git add"
-    ]
-  },
   "private": true,
   "scripts": {
-    "coverage": "codecov -f ./coverage/lcov.info -t $CODECOV_TOKEN",
-    "precommit": "lint-staged",
-    "flow": "flow-typed install -s && flow",
-    "lint:es": "eslint . --ext=js,jsx",
-    "lint": "run-p lint:*",
     "start": "node node_modules/react-native/local-cli/cli.js start",
-    "test": "jest",
-    "snyk-protect": "snyk protect",
-    "prepublish": "npm run snyk-protect",
-    "prepare": "npm run snyk-protect"
+    "test": "jest"
   },
-  "snyk": true
+  "dependencies": {
+    "react": "16.8.3",
+    "react-native": "0.59.5"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.4",
+    "@babel/runtime": "^7.4.4",
+    "@types/jest": "^24.0.12",
+    "@types/react": "^16.8.15",
+    "@types/react-native": "^0.57.51",
+    "@types/react-test-renderer": "^16.8.1",
+    "babel-jest": "^24.7.1",
+    "codecov": "^3.3.0",
+    "jest": "^24.7.1",
+    "metro-react-native-babel-preset": "^0.54.0",
+    "react-test-renderer": "16.8.3",
+    "typescript": "^3.4.5"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
 }
