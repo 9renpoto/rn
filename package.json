@@ -18,7 +18,7 @@
     "@types/react-native": "0.57.56",
     "@types/react-test-renderer": "16.8.1",
     "babel-jest": "24.8.0",
-    "codecov": "3.4.0",
+    "codecov": "3.5.0",
     "jest": "24.8.0",
     "metro-react-native-babel-preset": "0.54.1",
     "react-test-renderer": "16.8.6",
