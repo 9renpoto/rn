@@ -1,5 +1,5 @@
 {
-  "name": "mobile",
+  "name": "@app/mobile",
   "version": "0.0.1",
   "private": true,
   "scripts": {
@@ -28,6 +28,10 @@
   },
   "jest": {
     "preset": "react-native",
+    "collectCoverage": true,
+    "coverageReporters": [
+      "lcov"
+    ],
     "moduleFileExtensions": [
       "ts",
       "tsx",

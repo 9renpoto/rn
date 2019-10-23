@@ -1,9 +1,58 @@
 {
   "name": "app",
-  "version": "1.0.0",
-  "main": "index.js",
-  "repository": "ssh://git@github.com/9renpoto/app.git",
-  "author": "Keisuke Kan <9renpoto@gmail.com>",
+  "author": "github.com/9renpto",
+  "devDependencies": {
+    "@types/jest": "24.0.19",
+    "@react-native-community/eslint-config": "^0.0.5",
+    "husky": "3.0.9",
+    "jest": "24.9.0",
+    "lerna": "^3.18.3",
+    "lint-staged": "9.4.2",
+    "npm-run-all": "4.1.5",
+    "prettier-eslint-cli": "5.0.0"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
   "license": "MIT",
-  "devDependencies": {}
+  "lint-staged": {
+    "*.{js,jsx}": [
+      "prettier-eslint --write",
+      "git add"
+    ],
+    "*.{ts,tsx}": [
+      "prettier-eslint --write",
+      "git add"
+    ],
+    "*.md": [
+      "prettier --write",
+      "textlint --fix",
+      "git add"
+    ]
+  },
+  "main": "n/a",
+  "prettier": {
+    "bracketSpacing": false,
+    "jsxBracketSameLine": true,
+    "singleQuote": true,
+    "trailingComma": "all"
+  },
+  "private": true,
+  "repository": "ssh://git@github.com/9renpoto/app.git",
+  "scripts": {
+    "build": "lerna run build --parallel",
+    "bump": "lerna version --no-git-tag-version --no-push && lerna-changelog",
+    "clean": "lerna run clean --parallel && lerna clean",
+    "lint": "run-s -l lint:*",
+    "lint:eslint": "npx eslint . --ext=ts,tsx",
+    "lint:pkg": "lerna run lint --parallel",
+    "lint:prettier": "prettier --check './{packages,sandbox,apps}/**/*.{js,jsx,ts,tsx,gql,graphql}'",
+    "test": "lerna run test"
+  },
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ]
 }
