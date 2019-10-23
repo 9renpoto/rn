@@ -1,4 +1,3 @@
-import {configure} from '@storybook/react';
-import requireContext from 'require-context.macro';
+import { configure } from '@storybook/react'
 
-configure(requireContext('../', true, /story.tsx$/), module);
+configure(require.context('../', true, /story.tsx$/), module)

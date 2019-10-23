@@ -1,15 +1,4 @@
-import styled from 'styled-components/native';
+import { storiesOf } from '@storybook/react'
+import { Button } from 'react-native-elements'
 
-export default {title: 'atoms'};
-
-const View = styled.View``;
-
-const Text = styled.Text``;
-
-export function Buttons() {
-  return (
-    <View>
-      <Text>hello</Text>
-    </View>
-  );
-}
+storiesOf('atoms', module).add('Button', () => <Button>hello</Button>)
