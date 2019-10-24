@@ -1,4 +1,5 @@
+import React from 'react'
 import { storiesOf } from '@storybook/react'
-import { Text } from 'react-native'
+import { Button } from 'react-native-elements'
 
-storiesOf('atoms', module).add('Button', () => <Text>hello</Text>)
+storiesOf('atoms', module).add('Button', () => <Button title="hello" />)
