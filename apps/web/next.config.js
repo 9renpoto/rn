@@ -3,7 +3,7 @@ module.exports = {
     config.resolve.alias = {
       ...(config.resolve.alias || {}),
       'react-native$': 'react-native-web',
-    };
-    return config;
+    }
+    return config
   },
-};
+}

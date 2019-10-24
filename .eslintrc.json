@@ -1,3 +1,6 @@
 {
-  "extends": "@react-native-community"
+  "extends": [
+    "@react-native-community",
+    "@9renpoto/eslint-config-typescript"
+  ]
 }
