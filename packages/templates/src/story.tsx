@@ -7,7 +7,6 @@ import {
   ThemeProvider,
 } from 'react-native-elements'
 import { random } from 'faker'
-import { View } from 'react-native'
 import { Layout } from './Layout'
 
 const list = [
@@ -30,12 +29,12 @@ storiesOf('templates', module)
         centerComponent={{ text: 'MY TITLE', style: { color: '#fff' } }}
         rightComponent={{ icon: 'home', color: '#fff' }}
       />
-      <View
+      <Layout
         style={{
           flexDirection: 'row',
         }}
       >
-        <View style={{ flex: 0.5 }}>
+        <Layout style={{ flex: 0.5 }}>
           <PricingCard
             color="#4f9deb"
             title="Free"
@@ -43,8 +42,8 @@ storiesOf('templates', module)
             info={['1 User', 'Basic Support', 'All Core Features']}
             button={{ title: 'GET STARTED', icon: 'flight-takeoff' }}
           />
-        </View>
-        <View style={{ flex: 0.5 }}>
+        </Layout>
+        <Layout style={{ flex: 0.5 }}>
           <PricingCard
             color="#4f9deb"
             title="Free"
@@ -52,8 +51,8 @@ storiesOf('templates', module)
             info={['1 User', 'Basic Support', 'All Core Features']}
             button={{ title: 'GET STARTED', icon: 'flight-takeoff' }}
           />
-        </View>
-      </View>
+        </Layout>
+      </Layout>
       {list.map((item, i) => (
         <ListItem
           key={i}
