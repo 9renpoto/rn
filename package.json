@@ -65,6 +65,7 @@
     "lint:eslint": "npx eslint . --ext=ts,tsx",
     "lint:pkg": "lerna run lint --parallel",
     "lint:prettier": "prettier --check './{packages,apps}/**/*.{js,jsx,ts,tsx}'",
+    "start": "storybook-server -p 7007",
     "test": "lerna run test"
   },
   "workspaces": [
