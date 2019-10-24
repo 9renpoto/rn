@@ -1,9 +1,22 @@
 {
   "name": "app",
   "author": "github.com/9renpto",
+  "dependencies": {
+    "react": "16.8.3",
+    "react-art": "16.5.1",
+    "react-dom": "16.8.3",
+    "react-native": "0.59.10",
+    "react-native-elements": "1.1.0",
+    "react-native-vector-icons": "6.4.2",
+    "react-native-web": "0.9.13"
+  },
   "devDependencies": {
-    "@types/jest": "24.0.19",
+    "@babel/core": "7.6.4",
     "@react-native-community/eslint-config": "0.0.5",
+    "@storybook/react": "5.2.5",
+    "@types/jest": "24.0.19",
+    "babel-loader": "8.0.6",
+    "babel-plugin-lodash": "3.3.4",
     "husky": "3.0.9",
     "jest": "24.9.0",
     "lerna": "3.18.3",
@@ -18,24 +31,18 @@
   },
   "license": "MIT",
   "lint-staged": {
-    "*.{js,jsx}": [
-      "prettier-eslint --write",
+    "*.{js,jsx,md}": [
+      "prettier --write",
       "git add"
     ],
     "*.{ts,tsx}": [
       "prettier-eslint --write",
       "git add"
-    ],
-    "*.md": [
-      "prettier --write",
-      "textlint --fix",
-      "git add"
     ]
   },
   "main": "n/a",
   "prettier": {
-    "bracketSpacing": false,
-    "jsxBracketSameLine": true,
+    "semi": false,
     "singleQuote": true,
     "trailingComma": "all"
   },
@@ -48,7 +55,7 @@
     "lint": "run-s -l lint:*",
     "lint:eslint": "npx eslint . --ext=ts,tsx",
     "lint:pkg": "lerna run lint --parallel",
-    "lint:prettier": "prettier --check './{packages,sandbox,apps}/**/*.{js,jsx,ts,tsx,gql,graphql}'",
+    "lint:prettier": "prettier --check './{packages,apps}/**/*.{js,jsx,ts,tsx}'",
     "test": "lerna run test"
   },
   "workspaces": [

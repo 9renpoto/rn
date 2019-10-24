@@ -3,7 +3,7 @@
     "config:base"
   ],
   "automerge": true,
-  "major": {
+  "patch": {
     "automerge": false
   },
   "devDependencies": {
