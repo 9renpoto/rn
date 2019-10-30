@@ -2,5 +2,9 @@
   "name": "@app/templates",
   "version": "0.0.0",
   "main": "lib/index.js",
-  "private": true
+  "private": true,
+  "dependencies": {
+    "babel-plugin-cssta": "0.9.0",
+    "cssta": "0.9.3"
+  }
 }
