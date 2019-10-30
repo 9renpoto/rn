@@ -5,35 +5,16 @@ import {
   PricingCard,
   ListItem,
   ThemeProvider,
-  Text,
 } from 'react-native-elements'
 import { random } from 'faker'
-import cssta from 'cssta/native'
-// import { MediaQueryStyleSheet } from 'react-native-responsive'
+import cssta from 'cssta/native.macro'
 import { Layout } from './Layout'
 
-// const styles = MediaQueryStyleSheet.create(
-//   //Base styles:
-//   {
-//     container: {
-//       padding: 0,
-//     },
-//   },
-//   //Media Queries styles:
-//   {
-//     '@media (min-device-width: 800)': {
-//       container: {
-//         padding: 20,
-//       },
-//     },
-//   },
-// )
+const StyledLayout = cssta(Layout)`
+  padding: 0px;
 
-const Title = cssta(Text)`
-  font-size: 12px;
-
-  @media (platform: ios) and (min-width: 600px) {
-    font-family: "San Francisco Display";
+  @media (min-width: 600px) {
+    padding: 20px;
   }
 `
 
@@ -51,8 +32,7 @@ const list = [
 storiesOf('templates', module)
   .addDecorator(story => <ThemeProvider>{story()}</ThemeProvider>)
   .add('Layout', () => (
-    <Layout>
-      <Title>aa</Title>
+    <StyledLayout>
       <Header
         leftComponent={{ icon: 'menu', color: '#fff' }}
         centerComponent={{ text: 'MY TITLE', style: { color: '#fff' } }}
@@ -91,5 +71,5 @@ storiesOf('templates', module)
           chevron
         />
       ))}
-    </Layout>
+    </StyledLayout>
   ))

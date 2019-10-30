@@ -4,7 +4,7 @@ module.exports = api => {
     plugins: [
       'lodash',
       '@babel/plugin-proposal-class-properties',
-      'babel-plugin-cssta',
+      'babel-plugin-macros',
     ],
     presets: [
       '@babel/preset-env',
