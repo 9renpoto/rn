@@ -7,7 +7,25 @@ import {
   ThemeProvider,
 } from 'react-native-elements'
 import { random } from 'faker'
+import { MediaQueryStyleSheet } from 'react-native-responsive'
 import { Layout } from './Layout'
+
+const styles = MediaQueryStyleSheet.create(
+  //Base styles:
+  {
+    container: {
+      padding: 0,
+    },
+  },
+  //Media Queries styles:
+  {
+    '@media (min-device-width: 800)': {
+      container: {
+        padding: 20,
+      },
+    },
+  },
+)
 
 const list = [
   {
@@ -23,7 +41,7 @@ const list = [
 storiesOf('templates', module)
   .addDecorator(story => <ThemeProvider>{story()}</ThemeProvider>)
   .add('Layout', () => (
-    <Layout>
+    <Layout style={styles.container}>
       <Header
         leftComponent={{ icon: 'menu', color: '#fff' }}
         centerComponent={{ text: 'MY TITLE', style: { color: '#fff' } }}
