@@ -20,8 +20,7 @@ jobs:
     - name: yarn install, build, and test
       run: |
         yarn
-        yarn build --if-present
         yarn build-storybook
-        yarn test
+        yarn list
       env:
         CI: true
