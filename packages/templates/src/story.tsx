@@ -7,7 +7,16 @@ import {
   ThemeProvider,
 } from 'react-native-elements'
 import { random } from 'faker'
+import cssta from 'cssta/native.macro'
 import { Layout } from './Layout'
+
+const StyledLayout = cssta(Layout)`
+  padding: 0px;
+
+  @media (min-width: 600px) {
+    padding: 20px;
+  }
+`
 
 const list = [
   {
@@ -23,7 +32,7 @@ const list = [
 storiesOf('templates', module)
   .addDecorator(story => <ThemeProvider>{story()}</ThemeProvider>)
   .add('Layout', () => (
-    <Layout>
+    <StyledLayout>
       <Header
         leftComponent={{ icon: 'menu', color: '#fff' }}
         centerComponent={{ text: 'MY TITLE', style: { color: '#fff' } }}
@@ -62,5 +71,5 @@ storiesOf('templates', module)
           chevron
         />
       ))}
-    </Layout>
+    </StyledLayout>
   ))
