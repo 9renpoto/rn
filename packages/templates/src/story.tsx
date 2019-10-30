@@ -9,6 +9,7 @@ import {
 import { random } from 'faker'
 import cssta from 'cssta/native.macro'
 import { Layout } from './Layout'
+import { MyReactNativeForm } from './Formik'
 
 const StyledLayout = cssta(Layout)`
   padding: 0px;
@@ -73,3 +74,4 @@ storiesOf('templates', module)
       ))}
     </StyledLayout>
   ))
+  .add('MyReactNativeForm', () => <MyReactNativeForm />)
