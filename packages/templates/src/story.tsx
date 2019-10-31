@@ -7,8 +7,8 @@ import {
   ThemeProvider,
 } from 'react-native-elements'
 import { random } from 'faker'
+import { View as Layout } from 'react-native'
 import cssta from 'cssta/native.macro'
-import { Layout } from './Layout'
 import { ElementsFormik, MyReactNativeForm } from './Formik'
 
 const StyledLayout = cssta(Layout)`
