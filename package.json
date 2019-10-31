@@ -26,7 +26,7 @@
     "@babel/preset-typescript": "7.6.0",
     "@react-native-community/eslint-config": "0.0.5",
     "@storybook/react": "5.2.5",
-    "@types/faker": "4.1.6",
+    "@types/faker": "4.1.7",
     "@types/jest": "24.0.20",
     "babel-loader": "8.0.6",
     "babel-plugin-lodash": "3.3.4",
