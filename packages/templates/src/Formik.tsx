@@ -4,19 +4,19 @@ import {
   Input as ElementsInput,
   Button as ElementsButton,
 } from 'react-native-elements'
-import { Formik } from 'formik'
+import { Formik, FormikProps } from 'formik'
 import { object, string } from 'yup'
 
 const validationSchema = object().shape({
   email: string().email(),
 })
 
-interface FormikProps {
+interface FormValues {
   email: string
 }
 
-export const MyReactNativeForm = () => {
-  const initialValues: FormikProps = {
+export const MyReactNativeForm = (_: FormikProps<FormValues>) => {
+  const initialValues: FormValues = {
     email: '',
   }
   return (
@@ -57,8 +57,8 @@ export const MyReactNativeForm = () => {
   )
 }
 
-export const ElementsFormik = () => {
-  const initialValues: FormikProps = {
+export const ElementsFormik = (_: FormikProps<FormValues>) => {
+  const initialValues: FormValues = {
     email: '',
   }
   return (
