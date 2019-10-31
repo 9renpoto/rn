@@ -9,6 +9,7 @@ import {
 import { random } from 'faker'
 import { View as Layout } from 'react-native'
 import cssta from 'cssta/native.macro'
+import { Calendar } from './Calenders'
 
 const StyledLayout = cssta(Layout)`
   padding: 0px;
@@ -73,3 +74,4 @@ storiesOf('templates', module)
       ))}
     </StyledLayout>
   ))
+  .add('Calendar', () => <Calendar />)
