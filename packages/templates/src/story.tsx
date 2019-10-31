@@ -7,8 +7,8 @@ import {
   ThemeProvider,
 } from 'react-native-elements'
 import { random } from 'faker'
+import { View as Layout } from 'react-native'
 import cssta from 'cssta/native.macro'
-import { Layout } from './Layout'
 
 const StyledLayout = cssta(Layout)`
   padding: 0px;
