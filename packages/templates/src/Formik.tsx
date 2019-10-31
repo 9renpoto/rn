@@ -64,9 +64,10 @@ export const ElementsFormik = (_: FormikProps<FormValues>) => {
   return (
     <Formik
       initialValues={initialValues}
-      onSubmit={values => {
+      onSubmit={(values, helpers) => {
         Alert.alert(JSON.stringify(values))
         console.log(values)
+        helpers.resetForm({ values: { email: '' } })
       }}
       validationSchema={validationSchema}
     >
