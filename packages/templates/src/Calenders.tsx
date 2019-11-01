@@ -43,10 +43,10 @@ export const CalendarStartPeriod = () => {
   const [period, setPeriod] = useState<Period>(3)
   const bookedDates = [
     moment()
-      .add(4, 'day')
+      .add(7, 'day')
       .format('YYYY-MM-DD'),
     moment()
-      .add(5, 'day')
+      .add(10, 'day')
       .format('YYYY-MM-DD'),
   ]
 
@@ -85,6 +85,20 @@ export const CalendarStartPeriod = () => {
           日まで
         </Text>
       )}
+      {startDate &&
+        period &&
+        (bookedDates.some(b => {
+          return (
+            moment(b).isBetween(
+              moment(startDate),
+              moment(startDate).add(period + 1, 'days'),
+            ) || moment(startDate).isBefore(moment())
+          )
+        }) ? (
+          <Text>Unavailable !!!!!</Text>
+        ) : (
+          <Text>Available</Text>
+        ))}
     </>
   )
 }
