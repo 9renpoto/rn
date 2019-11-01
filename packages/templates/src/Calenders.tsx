@@ -34,7 +34,7 @@ export const CalendarStartEnd = () => {
 }
 
 export const CalendarStartPeriod = () => {
-  type BookedType = {
+  type MarkType = {
     [k: string]: DotMarking
   }
   type Period = 3 | 4 | 5 | 6 | 7 | 8 | 9
@@ -50,11 +50,11 @@ export const CalendarStartPeriod = () => {
       .format('YYYY-MM-DD'),
   ]
 
-  const booked: BookedType = {
+  const marked: MarkType = {
     [startDate]: { selected: true, selectedColor: 'blue' },
   }
   bookedDates.map(
-    b => (booked[b] = { disabled: true, disableTouchEvent: true }),
+    b => (marked[b] = { disabled: true, disableTouchEvent: true }),
   )
 
   return (
@@ -63,7 +63,7 @@ export const CalendarStartPeriod = () => {
         renderArrow={direction => (
           <Text>{direction === 'left' ? '<' : '>'}</Text>
         )}
-        markedDates={booked}
+        markedDates={marked}
         onDayPress={day => {
           setStartDate(day.dateString)
         }}
