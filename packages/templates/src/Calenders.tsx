@@ -91,7 +91,7 @@ export const CalendarStartPeriod = () => {
           return (
             moment(b).isBetween(
               moment(startDate),
-              moment(startDate).add(period + 1, 'days'),
+              moment(startDate).add(Number(period) + 1, 'days'),
             ) || moment(startDate).isBefore(moment())
           )
         }) ? (
