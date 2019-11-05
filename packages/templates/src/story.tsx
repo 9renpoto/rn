@@ -9,7 +9,7 @@ import {
 import { random } from 'faker'
 import { View as Layout } from 'react-native'
 import cssta from 'cssta/native.macro'
-import { CalendarStartEnd, CalendarStartPeriod } from './Calenders'
+import { CalendarStartEnd, CalendarStartPeriod, Calendario } from './Calenders'
 import { ElementsFormik, MyReactNativeForm } from './Formik'
 
 const StyledLayout = cssta(Layout)`
@@ -77,5 +77,6 @@ storiesOf('templates', module)
   ))
   .add('CalendarStartEnd', () => <CalendarStartEnd />)
   .add('CalendarStartPeriod', () => <CalendarStartPeriod />)
+  .add('Calendario', () => <Calendario />)
   .add('MyReactNativeForm', () => <MyReactNativeForm />)
   .add('ElementsFormik', () => <ElementsFormik />)

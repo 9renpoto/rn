@@ -27,6 +27,10 @@
     "strictFunctionTypes": true,
     "strictNullChecks": true,
     "strictPropertyInitialization": true,
-    "target": "esnext"
+    "target": "esnext",
+    "typeRoots": [
+      "./node_modules/@types",
+      "./types"
+    ]
   }
 }

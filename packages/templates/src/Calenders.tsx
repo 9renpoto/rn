@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import { Text, Picker } from 'react-native'
 import moment from 'moment'
 import { Calendar as RNCalendar, DotMarking } from 'react-native-calendars'
+import Calendar from 'react-native-calendario'
 
 export const CalendarStartEnd = () => {
   const [startDate, setStartDate] = useState<string>('')
@@ -100,5 +101,59 @@ export const CalendarStartPeriod = () => {
           <Text>Available</Text>
         ))}
     </>
+  )
+}
+
+export const Calendario = () => {
+  return (
+    <Calendar
+      onChange={(range: any) => console.log(range)}
+      minDate="2018-04-20"
+      startDate="2018-04-30"
+      endDate="2018-05-05"
+      theme={{
+        activeDayColor: {},
+        monthTitleTextStyle: {
+          color: '#6d95da',
+          fontWeight: '300',
+          fontSize: 16,
+        },
+        emptyMonthContainerStyle: {},
+        emptyMonthTextStyle: {
+          fontWeight: '200',
+        },
+        weekColumnsContainerStyle: {},
+        weekColumnStyle: {
+          paddingVertical: 10,
+        },
+        weekColumnTextStyle: {
+          color: '#b6c1cd',
+          fontSize: 13,
+        },
+        nonTouchableDayContainerStyle: {},
+        nonTouchableDayTextStyle: {},
+        startDateContainerStyle: {},
+        endDateContainerStyle: {},
+        dayContainerStyle: {},
+        dayTextStyle: {
+          color: '#2d4150',
+          fontWeight: '200',
+          fontSize: 15,
+        },
+        dayOutOfRangeContainerStyle: {},
+        dayOutOfRangeTextStyle: {},
+        todayContainerStyle: {},
+        todayTextStyle: {
+          color: '#6d95da',
+        },
+        activeDayContainerStyle: {
+          backgroundColor: '#6d95da',
+        },
+        activeDayTextStyle: {
+          color: 'white',
+        },
+        nonTouchableLastMonthDayTextStyle: {},
+      }}
+    />
   )
 }
