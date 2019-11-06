@@ -105,12 +105,26 @@ export const CalendarStartPeriod = () => {
 }
 
 export const Calendario = () => {
+  interface disabledType {
+    [k: string]: boolean
+  }
+  const bookedDates = [
+    moment()
+      .add(7, 'day')
+      .format('YYYY-MM-DD'),
+    moment()
+      .add(10, 'day')
+      .format('YYYY-MM-DD'),
+  ]
+  const disabledDays: disabledType = {}
+  bookedDates.map(b => (disabledDays[b] = true))
   return (
     <Calendar
-      onChange={(range: any) => console.log(range)}
-      minDate="2018-04-20"
-      startDate="2018-04-30"
-      endDate="2018-05-05"
+      onChange={(range: { startDate: string; endDate?: string }) =>
+        console.log(range)
+      }
+      numberOfMonths={2}
+      disabledDays={disabledDays}
       theme={{
         activeDayColor: {},
         monthTitleTextStyle: {
