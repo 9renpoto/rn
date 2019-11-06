@@ -118,56 +118,70 @@ export const Calendario = () => {
   ]
   const disabledDays: disabledType = {}
   bookedDates.map(b => (disabledDays[b] = true))
+
+  interface Range {
+    startDate?: Date
+    endDate?: Date
+  }
+
   return (
-    <Calendar
-      onChange={(range: { startDate: string; endDate?: string }) =>
-        console.log(range)
-      }
-      numberOfMonths={2}
-      disabledDays={disabledDays}
-      theme={{
-        activeDayColor: {},
-        monthTitleTextStyle: {
-          color: '#6d95da',
-          fontWeight: '300',
-          fontSize: 16,
-        },
-        emptyMonthContainerStyle: {},
-        emptyMonthTextStyle: {
-          fontWeight: '200',
-        },
-        weekColumnsContainerStyle: {},
-        weekColumnStyle: {
-          paddingVertical: 10,
-        },
-        weekColumnTextStyle: {
-          color: '#b6c1cd',
-          fontSize: 13,
-        },
-        nonTouchableDayContainerStyle: {},
-        nonTouchableDayTextStyle: {},
-        startDateContainerStyle: {},
-        endDateContainerStyle: {},
-        dayContainerStyle: {},
-        dayTextStyle: {
-          color: '#2d4150',
-          fontWeight: '200',
-          fontSize: 15,
-        },
-        dayOutOfRangeContainerStyle: {},
-        dayOutOfRangeTextStyle: {},
-        todayContainerStyle: {},
-        todayTextStyle: {
-          color: '#6d95da',
-        },
-        activeDayContainerStyle: {
-          backgroundColor: '#6d95da',
-        },
-        activeDayTextStyle: {
-          color: 'white',
-        },
-        nonTouchableLastMonthDayTextStyle: {},
-      }}
-    />
+    <>
+      <Calendar
+        onChange={(range: Range) => {
+          console.log(range)
+        }}
+        numberOfMonths={2}
+        minDate={moment()
+          .add(3, 'days')
+          .format('YYYY-MM-DD')}
+        maxDate={moment()
+          .add(1, 'month')
+          .format('YYYY-MM-DD')}
+        disabledDays={disabledDays}
+        theme={{
+          activeDayColor: {},
+          monthTitleTextStyle: {
+            color: '#6d95da',
+            fontWeight: '300',
+            fontSize: 16,
+          },
+          emptyMonthContainerStyle: {},
+          emptyMonthTextStyle: {
+            fontWeight: '200',
+          },
+          weekColumnsContainerStyle: {},
+          weekColumnStyle: {
+            paddingVertical: 10,
+          },
+          weekColumnTextStyle: {
+            color: '#b6c1cd',
+            fontSize: 13,
+          },
+          nonTouchableDayContainerStyle: {},
+          nonTouchableDayTextStyle: {},
+          startDateContainerStyle: {},
+          endDateContainerStyle: {},
+          dayContainerStyle: {},
+          dayTextStyle: {
+            color: '#2d4150',
+            fontWeight: '200',
+            fontSize: 15,
+          },
+          dayOutOfRangeContainerStyle: {},
+          dayOutOfRangeTextStyle: {},
+          todayContainerStyle: {},
+          todayTextStyle: {
+            color: '#6d95da',
+          },
+          activeDayContainerStyle: {
+            backgroundColor: '#6d95da',
+          },
+          activeDayTextStyle: {
+            color: 'white',
+          },
+          nonTouchableLastMonthDayTextStyle: {},
+        }}
+      />
+    </>
   )
 }
