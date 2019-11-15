@@ -8,7 +8,14 @@ module.exports = api => {
       'babel-plugin-macros',
     ],
     presets: [
-      '@babel/preset-env',
+      [
+        '@babel/preset-env',
+        {
+          targets: {
+            node: true,
+          },
+        },
+      ],
       '@babel/preset-react',
       '@babel/preset-typescript',
     ],

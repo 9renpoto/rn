@@ -11,6 +11,8 @@ exports[`Layout render 1`] = `
     }
   }
 >
-  hello
+  <ForwardRef(Themed.Button)
+    title="hello"
+  />
 </View>
 `;

@@ -11,8 +11,12 @@
   "jest": {
     "setupFilesAfterEnv": ["<rootDir>/setup.enzyme.js"],
     "moduleNameMapper": {
-      "^react-native$": "react-native-web"
+      "^react-native$": "react-native-web",
+      "\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$": "<rootDir>/../__mocks__/fileMock.ts"
     },
+    "transformIgnorePatterns": [
+      "node_modules/(?!(react-native-elements|react-native-status-bar-height|react-native-vector-icons|react-native-ratings)/)"
+    ],
     "transform": {
       "^.+\\.(t|j)sx?$": "babel-jest"
     }
