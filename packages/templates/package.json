@@ -22,6 +22,7 @@
     }
   },
   "scripts": {
+    "build": "rm -rf lib && tsc -p .",
     "test": "jest"
   }
 }

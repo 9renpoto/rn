@@ -4,6 +4,10 @@
     "outDir": "./lib",
     "noEmit": false,
     "declaration": true,
-    "sourceMap": true
-  }
+    "sourceMap": true,
+    "skipLibCheck": true
+  },
+  "exclude": [
+    "**/*story.tsx"
+  ]
 }
