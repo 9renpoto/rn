@@ -10,10 +10,12 @@
   },
   "jest": {
     "setupFilesAfterEnv": ["<rootDir>/setup.enzyme.js"],
+    "moduleNameMapper": {
+      "^react-native$": "react-native-web"
+    },
     "transform": {
       "^.+\\.(t|j)sx?$": "babel-jest"
-    },
-    "collectCoverage": true
+    }
   },
   "scripts": {
     "test": "jest"
