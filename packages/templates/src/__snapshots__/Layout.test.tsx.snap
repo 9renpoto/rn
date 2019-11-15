@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Layout render 1`] = `
+<View
+  style={
+    Object {
+      "paddingBottom": 20,
+      "paddingLeft": 20,
+      "paddingRight": 20,
+      "paddingTop": 20,
+    }
+  }
+>
+  <ForwardRef(Themed.Button)
+    title="hello"
+  />
+</View>
+`;
