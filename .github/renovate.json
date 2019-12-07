@@ -1,15 +1,12 @@
 {
-  "extends": [
-    "config:base"
-  ],
+  "extends": ["config:js-lib"],
   "automerge": true,
+  "labels": ["Type: Dependencies"],
   "major": {
     "automerge": false
   },
   "minor": {
     "automerge": false
   },
-  "devDependencies": {
-    "automerge": true
-  }
+  "semanticCommits": true
 }
