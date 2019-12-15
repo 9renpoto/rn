@@ -6580,10 +6580,10 @@ cssta@0.9.0:
     postcss "^7.0.17"
     postcss-selector-parser "^6.0.2"
 
-cssta@0.9.5:
-  version "0.9.5"
-  resolved "https://registry.yarnpkg.com/cssta/-/cssta-0.9.5.tgz#aa37e4bbc78dabf9a6c6c6a917e59765daa05fa9"
-  integrity sha512-0V3ItS7/MVJv9KeNijtL0AtCXW40ahfFIrlhNIrBh3HzmJjWpE8FdkL0E0lVlcPyfcVlzPTB33SJHPq2IIInsA==
+cssta@0.9.6:
+  version "0.9.6"
+  resolved "https://registry.yarnpkg.com/cssta/-/cssta-0.9.6.tgz#b5a1bdf868a5285c12b8f7e3c13ae962c4df3363"
+  integrity sha512-I0LrLpJ/YaICL0K91WcTXfN6R48/FVThh0gZ7miRBFAaJGz/wB4gavcNVRM9472z2v58QMvbB8QbTVxJJQ1JXQ==
   dependencies:
     "@types/react" "16.9.5"
     "@types/react-native" "^0.60.25"
