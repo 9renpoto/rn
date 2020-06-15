@@ -24,7 +24,7 @@
     "@babel/core": "7.10.2",
     "@babel/plugin-proposal-class-properties": "7.10.1",
     "@babel/preset-typescript": "7.10.1",
-    "@react-native-community/eslint-config": "1.1.0",
+    "@react-native-community/eslint-config": "2.0.0",
     "@storybook/react": "5.3.19",
     "@types/enzyme": "3.10.5",
     "@types/faker": "4.1.12",
