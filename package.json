@@ -28,7 +28,7 @@
     "@storybook/react": "5.3.19",
     "@types/enzyme": "3.10.5",
     "@types/faker": "4.1.12",
-    "@types/jest": "26.0.0",
+    "@types/jest": "26.0.3",
     "babel-jest": "26.0.1",
     "babel-loader": "8.1.0",
     "babel-plugin-lodash": "3.3.4",
