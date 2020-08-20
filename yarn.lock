@@ -10,18 +10,18 @@
     eslint-config-prettier "^6.10.0"
     eslint-plugin-react-hooks "^4.1.0"
 
-"@9renpoto/eslint-config-typescript@7.0.1":
-  version "7.0.1"
-  resolved "https://registry.yarnpkg.com/@9renpoto/eslint-config-typescript/-/eslint-config-typescript-7.0.1.tgz#5108f8085889b486aea87a2ce99d8a989fad6fa9"
-  integrity sha512-0+ppuz46oq/D/Ruwa73hECR1er2/UHlVpC1+H9IyZL2As6cfTksNE9KmQXHfy0Ei6a1si2cocFuQ6DyZb303bw==
+"@9renpoto/eslint-config-typescript@7.0.3":
+  version "7.0.3"
+  resolved "https://registry.yarnpkg.com/@9renpoto/eslint-config-typescript/-/eslint-config-typescript-7.0.3.tgz#c29b3ee6279cd2cbf7ec5eeb22878a4c27cba470"
+  integrity sha512-tvtKMlEpZdgIiQ3UWNoW6ZbIAE6xLyaDQ/kVTQ6Su7nGzuWA0jsNpRkTsiEn99yuRcKQNPqgX+ih/FkhWvWhkg==
   dependencies:
-    "@9renpoto/eslint-config" "^7.0.1"
+    "@9renpoto/eslint-config" "^7.0.3"
     "@typescript-eslint/parser" "^3.0.2"
 
-"@9renpoto/eslint-config@^7.0.1":
-  version "7.0.1"
-  resolved "https://registry.yarnpkg.com/@9renpoto/eslint-config/-/eslint-config-7.0.1.tgz#fff026a130201ee92841cbb0e72ea970fa12204d"
-  integrity sha512-cLYshRaoafZgUvSK9eqyi1B92+q9dRHpo80MYHCOznXwRG/WgjG7sbI/OBUYQ3ohRVRJil6HgoOYvbNbFXknOg==
+"@9renpoto/eslint-config@^7.0.3":
+  version "7.0.3"
+  resolved "https://registry.yarnpkg.com/@9renpoto/eslint-config/-/eslint-config-7.0.3.tgz#3a843178f6dd90e2665e6ec082794f72710f3231"
+  integrity sha512-NJhgYO7Y4YQu9j67F31D0DbFo65pWtrLaD26XQKBdSXWcbbHoecfVfqCWYgqAdBQZc2R4zWIPR7UBXxVbOd++w==
   dependencies:
     eslint-config-prettier "^6.10.0"
     eslint-plugin-prettier "^3.1.4"
