@@ -35,7 +35,7 @@
     "babel-plugin-react-native-web": "0.13.9",
     "enzyme": "3.11.0",
     "enzyme-adapter-react-16": "1.15.3",
-    "faker": "5.0.0",
+    "faker": "5.1.0",
     "husky": "4.2.5",
     "jest": "26.4.2",
     "jest-enzyme": "7.1.2",
