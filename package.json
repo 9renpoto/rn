@@ -27,7 +27,7 @@
     "@react-native-community/eslint-config": "2.0.0",
     "@storybook/react": "6.0.19",
     "@types/enzyme": "3.10.5",
-    "@types/faker": "4.1.12",
+    "@types/faker": "5.1.0",
     "@types/jest": "26.0.10",
     "babel-jest": "26.3.0",
     "babel-loader": "8.1.0",
