@@ -37,7 +37,7 @@
     "enzyme-adapter-react-16": "1.15.5",
     "faker": "5.1.0",
     "husky": "4.3.0",
-    "jest": "26.5.2",
+    "jest": "26.5.3",
     "jest-enzyme": "7.1.2",
     "lerna": "3.22.1",
     "lint-staged": "10.4.0",
