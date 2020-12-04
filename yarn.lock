@@ -6756,10 +6756,10 @@ babel-plugin-react-docgen@^4.2.1:
     lodash "^4.17.15"
     react-docgen "^5.0.0"
 
-babel-plugin-react-native-web@0.14.8:
-  version "0.14.8"
-  resolved "https://registry.yarnpkg.com/babel-plugin-react-native-web/-/babel-plugin-react-native-web-0.14.8.tgz#9888840290a25432a076f14518dca095bffb3cad"
-  integrity sha512-NTs8y9q5IYLFHgDBkHwyPJPJWPIVaPVTE2QQ/bd6DJ/o90XngfUNJE3FKslyzK9H84Tz3A/E3FwmXQrOaV+3Fg==
+babel-plugin-react-native-web@0.14.9:
+  version "0.14.9"
+  resolved "https://registry.yarnpkg.com/babel-plugin-react-native-web/-/babel-plugin-react-native-web-0.14.9.tgz#431d492c2eab00b7cd12acf27aaac2743163c6cc"
+  integrity sha512-9Xmv9BGQoAKlwYGDWkTtmqGrGq8XBHchDIsnzRUuKxledZKn6bebPY6mJV8J/8S00St2B5M/IQMV5QwKe1OxNw==
 
 babel-plugin-syntax-jsx@6.18.0, babel-plugin-syntax-jsx@^6.18.0:
   version "6.18.0"
@@ -20396,7 +20396,7 @@ xregexp@^4.2.4, xregexp@^4.3.0:
   dependencies:
     "@babel/runtime-corejs3" "^7.8.3"
 
-xtend@^4.0.0, xtend@^4.0.1, xtend@~4.0.1:
+xtend@^4.0.0, xtend@~4.0.1:
   version "4.0.2"
   resolved "https://registry.yarnpkg.com/xtend/-/xtend-4.0.2.tgz#bb72779f5fa465186b1f438f674fa347fdb5db54"
   integrity sha512-LKYU1iAXJXUgAXn9URjiu+MWhyUXHsvfp7mcuYm9dSUKK0/CjtrUwFAxD82/mCWbtLsGjFIad0wIsod4zrTAEQ==
