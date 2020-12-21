@@ -11,7 +11,7 @@
     "react-art": "^16.12.0",
     "react-dom": "^16.12.0",
     "react-native": "^0.63.0",
-    "react-native-elements": "^2.0.0",
+    "react-native-elements": "^3.0.0",
     "react-native-vector-icons": "^7.0.0",
     "react-native-web": "^0.11.7",
     "typescript-styled-plugin": "^0.15.0",
