@@ -21,7 +21,7 @@
     "@9renpoto/eslint-config-react": "7.4.0",
     "@9renpoto/eslint-config-typescript": "7.4.0",
     "@9renpoto/stylelint-config": "7.4.0",
-    "@babel/core": "7.13.8",
+    "@babel/core": "7.13.10",
     "@babel/plugin-proposal-class-properties": "7.13.0",
     "@babel/preset-typescript": "7.13.0",
     "@react-native-community/eslint-config": "2.0.0",
