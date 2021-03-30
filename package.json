@@ -2,7 +2,7 @@
   "name": "app",
   "author": "github.com/9renpto",
   "dependencies": {
-    "@types/react-native": "^0.63.0",
+    "@types/react-native": "^0.64.0",
     "@types/yup": "^0.29.0",
     "babel-plugin-cssta": "^0.10.0",
     "cssta": "^0.10.0",
