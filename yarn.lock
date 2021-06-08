@@ -9111,6 +9111,18 @@ cssta@0.10.0, cssta@^0.10.0:
     postcss "^7.0.24"
     postcss-selector-parser "^6.0.2"
 
+cssta@0.10.1:
+  version "0.10.1"
+  resolved "https://registry.yarnpkg.com/cssta/-/cssta-0.10.1.tgz#55852415deb3a04c1dc432dcb8c6bdf521aed369"
+  integrity sha512-uPH0hJ+mJUDU3VJJ45B3oNTYu7v5mzDRk4wFbm9vAHKSNhiqlNtZOYFNhTx46GUF5bFIjsHzGdUCcNkzjV+pFw==
+  dependencies:
+    "@types/react" "16.9.5"
+    "@types/react-native" "^0.60.25"
+    css-color-function "^1.3.3"
+    css-to-react-native "^3.0.0"
+    postcss "^7.0.24"
+    postcss-selector-parser "^6.0.2"
+
 csstype@^2.2.0, csstype@^2.5.7:
   version "2.6.7"
   resolved "https://registry.yarnpkg.com/csstype/-/csstype-2.6.7.tgz#20b0024c20b6718f4eda3853a1f5a1cce7f5e4a5"
