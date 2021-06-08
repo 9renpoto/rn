@@ -6,7 +6,7 @@
   "dependencies": {
     "babel-plugin-cssta": "0.10.0",
     "babel-plugin-macros": "3.0.1",
-    "cssta": "0.10.0"
+    "cssta": "0.10.1"
   },
   "jest": {
     "setupFilesAfterEnv": ["<rootDir>/setup.enzyme.js"],
