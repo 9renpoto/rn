@@ -5,7 +5,7 @@
   "private": true,
   "dependencies": {
     "babel-plugin-cssta": "0.10.0",
-    "babel-plugin-macros": "3.0.1",
+    "babel-plugin-macros": "3.1.0",
     "cssta": "0.10.1"
   },
   "jest": {
