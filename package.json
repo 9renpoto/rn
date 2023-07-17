@@ -26,7 +26,7 @@
     "@babel/preset-typescript": "7.22.5",
     "@react-native-community/eslint-config": "3.0.1",
     "@storybook/react": "6.3.12",
-    "@types/enzyme": "3.10.12",
+    "@types/enzyme": "3.10.13",
     "@types/faker": "5.5.9",
     "@types/jest": "27.5.2",
     "babel-jest": "26.6.3",
